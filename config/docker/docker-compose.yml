@@ -1,0 +1,20 @@
+version: '3.1'
+services:
+  sys-currency-server:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: currency-sys-server:2.0
+    container_name: sys-currency-server
+    command: "--spring.profiles.active=prod"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /root/cxs-sys-currency-upload/logs:/root/cxs-java/logs
+      - /root/cxs-sys-currency-upload/upload:/root/cxs-java/upload
+      - /root/cxs-java/jvm:/var/log/jvm
+    networks:
+      - cxs-app
+networks:
+  cxs-app:
+    external:
+      name:  cxs-sys-currency-server-network
