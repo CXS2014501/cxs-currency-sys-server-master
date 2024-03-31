@@ -4,7 +4,7 @@
 
 [小白博客](https://gitee.com/cxs_git_com/cxs-currency-sys-server-master) 是2022年12月份疫情期间本人居家时设计开发的一款社区博客系统，当时一心只想着开发一款自己的系统，历时3个月左右，零零散散，总算是将小白博客开发出来，虽然有些功能尚未完善，但也是小白的心血，现将此系统开源，供有需要的小伙伴交流学习。
 
-欢迎到 [<img src="https://static.cxs.plus/static/202402261051231.svg+xml;charset=utf-8">](https://static.cxs.plus/wechat/59a0354d96ea4392bc0beea7fc271c84.png) 了解更多。同时也欢迎关注小白微信公众号 `全栈小白`：
+欢迎到 QQ群：941095490 了解更多。同时也欢迎关注小白微信公众号 `全栈小白`：
 
 ![全栈小白](images/202402261054806.png)
 
